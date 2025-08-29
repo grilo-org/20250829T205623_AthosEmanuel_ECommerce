@@ -1,0 +1,31 @@
+.buttonBody {
+  font-family: "Syne Mono", monospace;
+  font-size: 13px;
+  padding: 12px 24px;
+  background-color: #f2eef7;
+  color: #333652;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 13px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 2px 2px 0 #1b4a56;
+  height: 50px;
+  width: 300px;
+}
+
+.buttonBody:disabled {
+  background-color: #e9eaec;
+  cursor: not-allowed;
+  opacity: 0.6;
+  box-shadow: none;
+  transform: none;
+}
+
+.buttonBody:hover {
+  background-color: #e56997;
+  color: black;
+  box-shadow: none;
+  transform: translate(2px, 2px);
+}
